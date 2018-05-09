@@ -1,0 +1,1 @@
+#Método de simpson para aproximar integrales:
