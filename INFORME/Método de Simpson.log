@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  9 MAY 2018 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  23 MAY 2018 14:37
 entering extended mode
 **"./Método de Simpson.tex"
 ("Método de Simpson.tex"
@@ -292,7 +292,10 @@ Package: harvard
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )))
-No file "Método de Simpson".aux.
+("Método de Simpson.aux"
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
 \openout1 = `"Método de Simpson.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -382,173 +385,68 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 52.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-LaTeX Warning: Characters dropped after `\end{comment}' on input line 126.
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 131.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
+[1
+
+{C:/Users/KEVINSTEVEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 151.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
 
-{C:/Users/KEVINSTEVEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (14.97127pt too wide) in paragraph at lines 154--154
- []\T1/cmr/m/n/9 Variable/Estadisticos 
- []
+<FigurasUV/1.png, id=18, 450.18187pt x 377.15906pt>
+File: FigurasUV/1.png Graphic file (type png)
+ <use FigurasUV/1.png>
+Package pdftex.def Info: FigurasUV/1.png used on input line 164.
+(pdftex.def)             Requested size: 175.57022pt x 147.09143pt.
 
-
-Overfull \hbox (0.53783pt too wide) in paragraph at lines 157--157
- []\T1/cmr/m/n/9 Mediana 
- []
-
-
-Overfull \hbox (4.72624pt too wide) in paragraph at lines 158--158
- []\T1/cmr/m/n/9 Media. 
- []
-
-
-Overfull \hbox (2.66074pt too wide) in paragraph at lines 153--169
- [][] 
- []
-
-<FigurasUV/1.pdf, id=14, 1027.84pt x 545.03625pt>
-File: FigurasUV/1.pdf Graphic file (type pdf)
- <use FigurasUV/1.pdf>
-Package pdftex.def Info: FigurasUV/1.pdf used on input line 180.
-(pdftex.def)             Requested size: 462.52373pt x 245.26405pt.
-
-Overfull \hbox (7.27965pt too wide) in paragraph at lines 180--181
-[][] 
- []
-
-[2] <FigurasUV/2.pdf, id=20, 1027.84pt x 545.03625pt>
-File: FigurasUV/2.pdf Graphic file (type pdf)
- <use FigurasUV/2.pdf>
-Package pdftex.def Info: FigurasUV/2.pdf used on input line 186.
-(pdftex.def)             Requested size: 462.52373pt x 245.26405pt.
-
-Overfull \hbox (7.27965pt too wide) in paragraph at lines 186--187
-[][] 
- []
-
-[3 <./FigurasUV/1.pdf> <./FigurasUV/2.pdf>]
-
-LaTeX Warning: Citation 'R' on page 4 undefined on input line 194.
-
-
-LaTeX Warning: Citation 'G' on page 4 undefined on input line 194.
-
-<FigurasUV/sandiego.png, id=32, 188.95593pt x 129.48375pt>
-File: FigurasUV/sandiego.png Graphic file (type png)
-
-<use FigurasUV/sandiego.png>
-Package pdftex.def Info: FigurasUV/sandiego.png used on input line 197.
-(pdftex.def)             Requested size: 226.74597pt x 155.3797pt.
-
-<FigurasUV/sanfransisco.png, id=33, 258.21469pt x 172.39406pt>
-File: FigurasUV/sanfransisco.png Graphic file (type png)
-
-<use FigurasUV/sanfransisco.png>
-Package pdftex.def Info: FigurasUV/sanfransisco.png used on input line 202.
-(pdftex.def)             Requested size: 219.4835pt x 146.53563pt.
- [4 <./FigurasUV/sandiego.png> <./FigurasUV/sanfransisco.png>]
-Overfull \hbox (6.3397pt too wide) in paragraph at lines 215--215
- []\T1/cmr/m/n/9 Ingreso 
- []
-
-
-Overfull \hbox (17.54333pt too wide) in paragraph at lines 217--217
- []\T1/cmr/m/n/9 Habitaciones 
- []
-
-
-Overfull \hbox (25.4954pt too wide) in paragraph at lines 218--218
- []\T1/cmr/m/n/9 Dormitorios 
- []
-
-
-Overfull \hbox (16.66843pt too wide) in paragraph at lines 219--219
- []\T1/cmr/m/n/9 Poblaci�n 
- []
-
-
-LaTeX Warning: Citation 'R' on page 5 undefined on input line 232.
-
-
-LaTeX Warning: Citation 'Ma' on page 5 undefined on input line 232.
-
-
-Overfull \hbox (16.28728pt too wide) in paragraph at lines 249--249
- []\T1/cmr/m/n/9 Completo 
- []
-
-
-Overfull \hbox (10.54488pt too wide) in paragraph at lines 250--250
- []\T1/cmr/m/n/9 Forward 
- []
-
-
-Overfull \hbox (16.94609pt too wide) in paragraph at lines 251--251
- []\T1/cmr/m/n/9 Backward 
- []
-
-[5]
-
-LaTeX Warning: Citation 'Castro-03' on page 6 undefined on input line 270.
-
-
-LaTeX Warning: Citation 'H' on page 6 undefined on input line 271.
-
-
-LaTeX Warning: Citation 'Census' on page 6 undefined on input line 272.
-
-
-LaTeX Warning: Citation 'readr' on page 6 undefined on input line 273.
-
+[2 <./FigurasUV/1.png>] [3]
 No file "Método de Simpson".bbl.
-[6] ("Método de Simpson.aux"
+[4] ("Método de Simpson.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 5293 strings out of 493334
- 73445 string characters out of 3139234
- 149700 words of memory out of 3000000
- 8711 multiletter control sequences out of 15000+200000
+ 5268 strings out of 493334
+ 73022 string characters out of 3139234
+ 147722 words of memory out of 3000000
+ 8687 multiletter control sequences out of 15000+200000
  19575 words of font info for 58 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 43i,11n,40p,901b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\KEVINSTEVEN\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\KE
-VINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.
-pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\KEVINSTEVEN\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\K
-EVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900
+ 43i,8n,40p,872b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
+dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\KEVINSTEVEN\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\K
+EVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000
 .pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx0900.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb>
-Output written on "Método de Simpson.pdf" (6 pages, 388924 bytes).
+\dpi600\ecrm0700.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\KEVINSTEVEN\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\
+KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx090
+0.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Método de Simpson.pdf" (4 pages, 228106 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
+ 341 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
