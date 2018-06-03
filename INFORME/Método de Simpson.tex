@@ -1,12 +1,14 @@
 % -------------------------------------------------------------------------------------
 % Plantilla de un artículo para publicar en la Revista Colombiana de Estadística
 % *************************************************************************************
+
 % -------------------------------------------------------------------------------------
 % Establecer primero el idioma principal del artículo, por defecto es español; para
 % utilizar otro idioma, cambiar el comando "\documentclass{revcoles}" por el comando
 % "\documentclass[english]{revcoles}" o por "\documentclass[portuguese]{revcoles}"
 % **** --------------------------------------------------------------------------------
 \documentclass[report,oneside]{revcoles}
+\usepackage[utf8]{inputenc}
 \labeldocument[
 university = Universidad del Valle,
 faculty = Facultad de Ingeniería,
@@ -62,7 +64,7 @@ year = 2018]
 % **** --------------------------------------------------------------------------------
 \begin{authors}
 \author[firstname = Kevin Steven,
-        surname = García,
+        surname = Garc\'{i}a,
         code = Código: 1533173,
         email = kevin.chica@correounivalle.edu.co,
 ]
@@ -182,7 +184,11 @@ $$I(f)=\int\limits_{0}^{1}cos(2x)dx \approx \frac{1}{6}(cos(0)+4cos(1)+cos(2))=0
 $$I(f)=\int\limits_{0}^{1}e^{x^2}dx=1.462651$$ 
 ~\\ Utilizando el método de Simpson, la integral se resuelve de la siguiente manera:
 $$I(f)=\int\limits_{0}^{1}e^{x^2}dx \approx \frac{1}{6}(e^{0}+4 e^{(1/2)^2}+e^{1})=1.475730$$
-
+\item[]Ejemplo 3: Aplicar la regla de Simpson para aproximar la integral $\int\limits_{0}^{2}\frac{1}{\sqrt{1+x^3}} dx$
+~\\El valor exacto de esta integral es:
+$$I(f)=\int\limits_{0}^{2}\frac{1}{\sqrt{1+x^3}} dx=1.402182$$
+~\\Utilizando el método de Simpson, la integral se resuelve de la siguiente manera:
+$$I(f)=\int\limits_{0}^{2}\frac{1}{\sqrt{1+x^3}} dx \approx \frac{1}{3} \left(\frac{1}{\sqrt{1+0}}+4\frac{1}{\sqrt{1+1}}+\frac{1}{\sqrt{1+8}}\right)=1.387253$$
 \end{itemize}
 
 
@@ -215,9 +221,34 @@ $$I^{c}(f)=\frac{h}{6}\sum\limits_{i=1}^{5} \left( e^{x^{2}_{i}}+4 e^{\left(\fra
 
 $$=0.03333\left\lbrace e^{0}+2(e^{0.2^2}+e^{0.4^2}+e^{0.6^2}+e^{0.8^2})+e^{1^2}+4(e^{0.1^2}+e^{0.3^2}+e^{0.5^2}+e^{0.7^2}+e^{0.9^2})\right\rbrace$$
 $$=0.03333(43.880442)=1.462682$$
+
+\item[]Ejemplo 3: Se considera de nuevo la integral del ejemplo 3 de la sección anterior:
+$$I(f)=\int\limits_{0}^{2}\frac{1}{\sqrt{1+x^3}} dx=1.402182$$ 
+~\\Utilizando la fórmula de Simpson compuesta con 8 sub-intervalos de igual longitud (es decir, $h=\frac{b-a}{n}=\frac{2}{8}=0.25$ y $\left\lbrace x_{i} \right\rbrace ^{9}_{i=1}=\left\lbrace 0,0.25,0.5,0.75,1,1.25,1.5,1.75,2 \right\rbrace )$, se obtiene:
+
+$$I^{c}(f)=\frac{h}{6}\sum\limits_{i=1}^{8} \left( \frac{1}{\sqrt{1+x_{i}^3}}+4\left(\frac{1}{\sqrt{1+\left(\frac{x_{i}+x_{i+1}}{2}\right)^3}}\right)+\frac{1}{\sqrt{1+x_{i+1}^3}} \right)$$
+
+$=0.04166\{\frac{1}{\sqrt{1}}+2\left(\frac{1}{\sqrt{1+0.25^3}}+\frac{1}{\sqrt{1+0.5^3}}+\frac{1}{\sqrt{1+0.75^3}}+\frac{1}{\sqrt{1+1^3}}+\frac{1}{\sqrt{1+1.25^3}}+\frac{1}{\sqrt{1+1.5^3}}+\frac{1}{\sqrt{1+1.75^3}}\right)+\frac{1}{\sqrt{1+2^3}}+4\left(\frac{1}{\sqrt{1+\left(\frac{0.25}{2}\right)^3}}         +\frac{1}{\sqrt{1+\left(\frac{0.75}{2}\right)^3}}+\frac{1}{\sqrt{1+\left(\frac{1.25}{2}\right)^3}}+\frac{1}{\sqrt{1+\left(\frac{1.75}{2}\right)^3}}+\frac{1}{\sqrt{1+\left(\frac{2.25}{2}\right)^3}}+\frac{1}{\sqrt{1+\left(\frac{2.75}{2}\right)^3}}+\frac{1}{\sqrt{1+\left(\frac{3.25}{2}\right)^3}}+\frac{1}{\sqrt{1+\left(\frac{3.75}{2}\right)^3}}\right)\}$
+
+$$=0.04166\{1+2(4.9373)+0.3333+4(5.6111)\}$$
+
+$$=0.04166(33.652459)=1.401961$$
 \end{itemize}
+\section{Comparación Resultados}
+~\\Para comparar que tan cercano o que tan aproximado es el método tenemos la siguiente tabla:
+\begin{center}
+\begin{tabular}{|cccc|}
+\hline 
+ & Exacta & Simpson simple & Simpson compuesto \\ 
+\hline 
+Ejemplo 1 & 0.4546 & 0.4575 & 0.4546 \\  
+Ejemplo 2 & 1.462651 & 1.475730 & 1.462682 \\ 
+Ejemplo 3 & 1.402182 & 1.387253 & 1.401961 \\ 
+\hline 
+\end{tabular} 
+\end{center}
 
-
+~\\Se puede concluir que el método da muy buenas aproximaciones al valor exacto de la integral, estas aproximaciones van a ser muchísimo mejor si se parte el área de integración en un número elevado de sub-intervalos. Se debe tener en cuenta que entre mayor sea el área en el que se esta integrando, se debe dividir en mas sub-intervalos para obtener buenos resultados, es decir, si se va a encontrar una integral de 0 a 1, probablemente con 5 sub intervalos basta para obtener una buena aproximación, pero si se va a encontrar una integral de 0 a 10, ó de 0 a 100, estos 5 sub intervalos no bastaran para obtener una buena aproximación. En los 3 ejemplos que trabajamos vemos que se obtienen mejores aproximaciones con el Simpson compuesto, lo cuál es bastante lógico, ya que se esta integrando por áreas o pedazos y finalmente se suman cada una de esas áreas.
 
 % //// --------------------------------------------------------------------------------
 % -------------------------------------------------------------------------------------
