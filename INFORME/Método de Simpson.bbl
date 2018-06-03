@@ -1,0 +1,38 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{C.}{2004}{H}
+C., H.~R.  \harvardyearleft 2004\harvardyearright , Curso de métodos
+  numéricos en matlab, Technical report.
+
+\harvarditem{Chapra}{2002}{A}
+Chapra, steven C. y~Canale, R.~p.  \harvardyearleft 2002\harvardyearright ,
+  {\em Metodos Numericos para Ingenieros}, fifth edn,
+  McGRAW-HILL/INTERAMERICANA EDITORES, Mexico.
+\newblock ISBN 970-10-3965-3.
+\newline\harvardurl{http://www.stats.ox.ac.uk/pub/MASS4}
+
+\harvarditem{de~Matemática}{2007}{B}
+de~Matemática, D.  \harvardyearleft 2007\harvardyearright , Cátedra de
+  métodos numérico, Technical report.
+
+\harvarditem{de~valencia}{2005}{C}
+de~valencia, U.  \harvardyearleft 2005\harvardyearright , Regla de simpson,
+  Technical report.
+
+\harvarditem{del Cauca}{2008}{F}
+del Cauca, U.  \harvardyearleft 2008\harvardyearright , EstimaciÓn de error
+  para mÉtodos del trapecio, simpson (1/3) y simpson (3/8), Technical report.
+
+\harvarditem{Román}{2010}{E}
+Román, J.  \harvardyearleft 2010\harvardyearright , Integración numérica:
+  Método de simpson, Technical report.
+
+\harvarditem{Universidad~de Salamanda}{2005}{D}
+Universidad~de Salamanda, C.~A.  \harvardyearleft 2005\harvardyearright ,
+  Integración numérica, Technical report.
+
+\harvarditem{Vasquez}{2012}{G}
+Vasquez, R.~S.  \harvardyearleft 2012\harvardyearright , Metodos numericos para
+  ingenieria, Technical report.
+
+\end{thebibliography}
